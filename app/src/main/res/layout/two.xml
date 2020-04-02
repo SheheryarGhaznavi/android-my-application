@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newa">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Name"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/t1"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Email"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="152dp"
+        android:id="@+id/t2"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Contact"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="35dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="145dp"
+        android:id="@+id/t3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:text="Show Data"
+        android:id="@+id/sd"/>
+
+</LinearLayout>
